@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white;
+  }
+}
+
+@layer components {
+  .extent {
+    @apply mx-auto max-w-6xl;
+  }
+}
+
+@layer utilities {
+  .content-auto {
+    content-visibility: auto;
+  }
+}
